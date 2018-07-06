@@ -6,4 +6,8 @@ options:
   [[a,o], [h]]
 
 option:
-  help:[?,h,help]
+  help:
+    [?,h,help]
+  force:
+    [f,force]
+  
