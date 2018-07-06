@@ -4,3 +4,6 @@ commands:
   [opus2Pcm,speex2Pcm,pcm2Opus,pcm2Speex,opus2Speex,speex2Opus]
 options:
   [[a,o], [h]]
+
+option:
+  help:[?,h,help]
