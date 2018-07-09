@@ -53,6 +53,8 @@ options:
       [v],
     long:
       [version],
+    priority:
+      20,
     comment:
       查看版本号。
   },
@@ -64,6 +66,8 @@ options:
       ['?',h],
     long:
       [help],
+    priority:
+      10,
     comment:
       '查看命令用法。',
     output:
