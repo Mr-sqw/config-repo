@@ -14,24 +14,30 @@ options:
   all:
     name:
       'all'
-    alias:
+    short:
       [a]
+    long:
+      [all]
     comment:
       '将源目录中的所有文件进行转码。默认只转码源目录中文件扩展名与转码命令匹配的文件；如使用转码命令“opus2Pcm”，则只转码源目录中文件扩展名为opus的文件。'
   #
   force:
     name:
       'force'
-    alias:
+    short:
       [f]
+    long:
+      [force]  
     comment:
      '强行覆盖目的目录中已存在的文件。默认不覆盖。'
   #
   suffix:
     name:
       'suffix'
-    alias:
+    short:
       [s]
+    long:
+      [suffix]
     comment:
       '指定转码后的文件的文件扩展名。转码后的文件的文件扩展名默认与转码命令匹配；如使用转码命令“opus2Pcm”，则转码后的文件的文件扩展名为pcm。'
     hasValue:
@@ -40,16 +46,20 @@ options:
   version:
     name:
       'version'
-    alias:
+    short:
       [v]
+    long:
+      [version]
     comment:
       查看版本号。
   #
   help:
     name:
       'help'
-    alias:
+    short:
       ['?',h]
+    long:
+      [help]
     comment:
       '查看命令用法。'
     output:
