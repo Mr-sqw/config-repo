@@ -34,6 +34,8 @@ options:
       [s]
     comment:
       '指定转码后的文件的文件扩展名。转码后的文件的文件扩展名默认与转码命令匹配；如使用转码命令“opus2Pcm”，则转码后的文件的文件扩展名为pcm。'
+    hasValue:
+      true
   #
   version:
     name:
