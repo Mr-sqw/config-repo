@@ -9,9 +9,9 @@ commands:
   [opus2Pcm,speex2Pcm,pcm2Opus,pcm2Speex,opus2Speex,speex2Opus]
 
 #命令选项
-options:[
+options:
   #
-  {
+  [{
     name:
       'all'
     short:
@@ -20,7 +20,7 @@ options:[
       [all]
     comment:
       '将源目录中的所有文件进行转码。默认只转码源目录中文件扩展名与转码命令匹配的文件；如使用转码命令“opus2Pcm”，则只转码源目录中文件扩展名为opus的文件。'
-  }
+  },
   #
   {
     name:
@@ -31,7 +31,7 @@ options:[
       [force]  
     comment:
      '强行覆盖目的目录中已存在的文件。默认不覆盖。'
-  }
+  },
   #
   {
     name:
@@ -44,7 +44,7 @@ options:[
       '指定转码后的文件的文件扩展名。转码后的文件的文件扩展名默认与转码命令匹配；如使用转码命令“opus2Pcm”，则转码后的文件的文件扩展名为pcm。'
     hasValue:
       true
-  }
+  },
   #
   {
     name:
@@ -55,7 +55,7 @@ options:[
       [version]
     comment:
       查看版本号。
-  }
+  },
   #
   {
     name:
