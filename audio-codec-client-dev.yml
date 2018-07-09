@@ -13,63 +13,63 @@ options:
   #
   [{
     name:
-      'all'
+      'all',
     short:
-      [a]
+      [a],
     long:
-      [all]
+      [all],
     comment:
       '将源目录中的所有文件进行转码。默认只转码源目录中文件扩展名与转码命令匹配的文件；如使用转码命令“opus2Pcm”，则只转码源目录中文件扩展名为opus的文件。'
   },
   #
   {
     name:
-      'force'
+      'force',
     short:
-      [f]
+      [f],
     long:
-      [force]  
+      [force],
     comment:
      '强行覆盖目的目录中已存在的文件。默认不覆盖。'
   },
   #
   {
     name:
-      'suffix'
+      'suffix',
     short:
-      [s]
+      [s],
     long:
-      [suffix]
+      [suffix],
     comment:
-      '指定转码后的文件的文件扩展名。转码后的文件的文件扩展名默认与转码命令匹配；如使用转码命令“opus2Pcm”，则转码后的文件的文件扩展名为pcm。'
+      '指定转码后的文件的文件扩展名。转码后的文件的文件扩展名默认与转码命令匹配；如使用转码命令“opus2Pcm”，则转码后的文件的文件扩展名为pcm。',
     hasValue:
       true
   },
   #
   {
     name:
-      'version'
+      'version',
     short:
-      [v]
+      [v],
     long:
-      [version]
+      [version],
     comment:
       查看版本号。
   },
   #
   {
     name:
-      'help'
+      'help',
     short:
-      ['?',h]
+      ['?',h],
     long:
-      [help]
+      [help],
     comment:
-      '查看命令用法。'
+      '查看命令用法。',
     output:
       'Usage: command [options] src dst\r\n\r\ncommand: opus2Pcm|speex2Pcm|pcm2Opus|pcm2Speex|opus2Speex|speex2Opus\r\n\r\noptions:\r\n-a, --all  将源目录中的所有文件进行转码。默认只转码源目录中文件扩展名与转码命令匹配的文件；如使用转码命令“opus2Pcm”，则只转码源目录中文件扩展名为opus的文件。\r\n-f, --force  强行覆盖目的目录中已存在的文件。默认不覆盖。\r\n-s[suffix name], --suffix=[suffix name]  指定转码后的文件的文件扩展名。转码后的文件的文件扩展名默认与转码命令匹配；如使用转码命令“opus2Pcm”，则转码后的文件的文件扩展名为pcm。\r\n-?, -h, --help  查看命令用法。\r\n-v, --version  查看版本号。\r\n\r\nsrc: 待转码的音频资源。可以是文件、目录、http/https url；使用平台相关的路径分隔符进行分隔（windows为英文分号“;”，linux为英文冒号“:”）。对文件和目录，支持使用通配符(“?”,“*”)进行搜索，如“/home/suqianwe?/*.txt”。\r\n\r\ndst: 转码后的音频资源存放的文件/目录。\r\n'
-  }
-]
+  }]
+  
 #待转码的音频资源
 src: 
   comment:
