@@ -14,9 +14,9 @@ options:
   [{
     name:
       'all',
-    short:
+    shorts:
       [a],
-    long:
+    longs:
       [all],
     comment:
       '将源目录中的所有文件进行转码。默认只转码源目录中文件扩展名与转码命令匹配的文件；如使用转码命令“opus2Pcm”，则只转码源目录中文件扩展名为opus的文件。'
@@ -25,9 +25,9 @@ options:
   {
     name:
       'force',
-    short:
+    shorts:
       [f],
-    long:
+    longs:
       [force],
     comment:
      '强行覆盖目的目录中已存在的文件。默认不覆盖。'
@@ -36,9 +36,9 @@ options:
   {
     name:
       'suffix',
-    short:
+    shorts:
       [s],
-    long:
+    longs:
       [suffix],
     comment:
       '指定转码后的文件的文件扩展名。转码后的文件的文件扩展名默认与转码命令匹配；如使用转码命令“opus2Pcm”，则转码后的文件的文件扩展名为pcm。',
@@ -49,9 +49,9 @@ options:
   {
     name:
       'version',
-    short:
+    shorts:
       [v],
-    long:
+    longs:
       [version],
     priority:
       20,
@@ -62,9 +62,9 @@ options:
   {
     name:
       'help',
-    short:
+    shorts:
       ['?',h],
-    long:
+    longs:
       [help],
     priority:
       10,
