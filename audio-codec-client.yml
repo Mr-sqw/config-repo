@@ -56,7 +56,7 @@ options:
     priority:
       20,
     comment:
-      查看版本号。
+      '查看版本号。',
     output:
       1.0.0
   },
