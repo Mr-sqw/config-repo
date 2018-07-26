@@ -1,4 +1,4 @@
-profile: {version:1.0.0, description:'转码命令'}
+profile: {version:'1.0.0', description:'转码命令'}
   
 #转码命令
 commands: [opus2Pcm,speex2Pcm,pcm2Opus,pcm2Speex,opus2Speex,speex2Opus]
